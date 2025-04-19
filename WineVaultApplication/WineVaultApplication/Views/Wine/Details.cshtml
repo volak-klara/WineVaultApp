@@ -1,0 +1,179 @@
+﻿@model WineVaultApplication.Models.Wine
+@using Microsoft.AspNet.Identity
+@{
+    ViewBag.Title = "Wine Details";
+}
+
+<div class="container">
+    <div class="wine-details-container">
+        
+        <div class="card shadow-sm mb-4">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <img src="@Model.ImagePath" class="wine-detail-image" alt="@Model.Name"
+                         onerror="this.src='https://via.placeholder.com/400x500?text=No+Image';">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h2 class="card-title">@Model.Name</h2>
+                            <span class="badge bg-secondary">@Model.Category</span>
+                        </div>
+                        <p class="card-text">@Model.Description</p>
+                        <div class="wine-stats mb-4">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-heart text-danger me-2"></i>
+                                <span>@Model.LikesCount likes</span>
+                            </div>
+                        </div>
+
+                        @if (Model.UserId == User.Identity.GetUserId())
+                        {
+                            <div class="d-flex gap-2 mb-3">
+                                @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn custom-btn" })
+                                @using (Html.BeginForm("Delete", "Wine", new { id = Model.Id }, FormMethod.Post, new { style = "display:inline;" }))
+                                {
+                                    <button type="submit" class="btn custom-btn" onclick="return confirm('Are you sure you want to delete this wine?');">Delete</button>
+                                }
+                            </div>
+                        }
+                        else
+                        {
+                            using (Html.BeginForm("Like", "Wine", new { id = Model.Id }, FormMethod.Post))
+                            {
+                                <button type="submit" class="btn custom-btn mb-3">
+                                    <i class="fas fa-heart me-2"></i>Like
+                                </button>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h3 class="card-title mb-4">Comments</h3>
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    using (Html.BeginForm("AddComment", "Wine", FormMethod.Post, new { @class = "mb-4" }))
+                    {
+                        @Html.Hidden("wineId", Model.Id)
+                        <div class="form-group">
+                            <div class="input-group">
+                                <textarea name="content" class="form-control" placeholder="Add a comment..." rows="2" required></textarea>
+                                <button type="submit" class="btn custom-btn">Post</button>
+                            </div>
+                        </div>
+                    }
+                }
+
+                <div class="comments-section">
+                    @if (Model.Comments != null && Model.Comments.Any())
+                    {
+                        foreach (var comment in Model.Comments.OrderByDescending(c => c.CreatedAt))
+                        {
+                            <div class="comment mb-3">
+                                <div class="d-flex align-items-start">
+                                    <i class="fas fa-user-circle fa-2x text-muted me-2"></i>
+                                    <div class="comment-content">
+                                        <div class="comment-header">
+                                            <strong>@comment.User.UserName</strong>
+                                            <small class="text-muted ms-2">
+                                                @comment.CreatedAt.ToString("MMM dd, yyyy HH:mm")
+                                            </small>
+                                        </div>
+                                        <p class="mb-0">@comment.Content</p>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <p class="text-muted text-center">No comments yet. Be the first to comment!</p>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            @Html.ActionLink("Back to List", "WinePosts", null, new { @class = "btn custom-btn" })
+        </div>
+    </div>
+</div>
+
+<style>
+    .wine-details-container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .wine-detail-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px 0 0 5px;
+    }
+
+    .custom-btn {
+        background-color: #722F37;
+        color: white;
+        border-radius: 25px;
+        padding: 8px 20px;
+        border: none;
+        transition: all 0.3s ease;
+    }
+
+        .custom-btn:hover {
+            background-color: #4E1C24;
+            color: white !important;
+            text-decoration: none;
+        }
+
+    .badge {
+        background-color: #722F37 !important;
+        padding: 8px 15px;
+        border-radius: 15px;
+    }
+
+    .comment {
+        padding: 15px;
+        border-radius: 10px;
+        background-color: #f8f9fa;
+        transition: background-color 0.3s ease;
+    }
+
+        .comment:hover {
+            background-color: #f0f1f2;
+        }
+
+    .comment-content {
+        flex: 1;
+    }
+
+    .comment-header {
+        margin-bottom: 5px;
+    }
+
+    .input-group {
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+        .input-group textarea {
+            border-right: none;
+            resize: none;
+        }
+
+        .input-group .btn {
+            border-radius: 0 20px 20px 0;
+        }
+
+    .card {
+        border: none;
+        border-radius: 15px;
+    }
+</style>

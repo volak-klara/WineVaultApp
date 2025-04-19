@@ -1,0 +1,225 @@
+﻿@model IEnumerable<WineVaultApplication.Models.Wine>
+@{
+    ViewBag.Title = "Wine Posts";
+}
+
+<div class="container">
+    <div class="wine-feed">
+        <h2 class="text-center mb-4"><i class="fas fa-wine-glass-alt me-2"></i>Wine Feed</h2>
+
+        @foreach (var wine in Model)
+        {
+            <div class="wine-post mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-white d-flex align-items-center p-2">
+                        <i class="fas fa-user-circle fa-lg text-muted me-2"></i>
+                        <div>
+                            <h6 class="mb-0" style="font-size: 0.9rem;">@wine.User.UserName</h6>
+                            <small class="text-muted" style="font-size: 0.8rem;">Wine Enthusiast</small>
+                        </div>
+                    </div>
+
+                    <img src="@wine.ImagePath" class="wine-image" alt="@wine.Name"
+                         onerror="this.src='https://via.placeholder.com/600x400?text=No+Image';">
+
+                    <div class="card-body p-3">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h5 class="card-title mb-0" style="font-size: 1.1rem;">@wine.Name</h5>
+                            <span class="badge bg-secondary" style="font-size: 0.8rem;">@wine.Category</span>
+                        </div>
+
+                        <p class="card-text small">@wine.Description</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                          
+                            <div class="d-flex align-items-center">
+                                @{
+                                    var isLiked = wine.IsLikedByCurrentUser;
+                                    var heartClass = isLiked ? "text-danger" : "text-muted";
+                                }
+                                <button type="button" class="btn btn-link p-0 me-2 like-button"
+                                        data-wine-id="@wine.Id"
+                                        data-is-liked="@isLiked.ToString().ToLower()">
+                                    <i class="fas fa-heart @heartClass" style="font-size: 1.2rem;"></i>
+                                </button>
+                                <span class="likes-count">@wine.LikesCount likes</span>
+                            </div>
+                            @Html.ActionLink("View Details", "Details", new { id = wine.Id }, new { @class = "btn custom-btn btn-sm" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    .wine-feed {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .wine-post {
+        transition: transform 0.2s;
+    }
+
+        .wine-post:hover {
+            transform: translateY(-3px);
+        }
+
+    .wine-image {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .custom-btn {
+        background-color: #722F37;
+        color: white;
+        border-radius: 20px;
+        padding: 5px 15px;
+        border: none;
+        transition: all 0.3s ease;
+        font-size: 0.9rem;
+    }
+
+        .custom-btn:hover {
+            background-color: #4E1C24;
+            color: white !important;
+            text-decoration: none;
+        }
+
+    .btn-link {
+        text-decoration: none;
+    }
+
+        .btn-link:hover {
+            transform: scale(1.1);
+        }
+
+    .likes-count {
+        font-size: 0.8rem;
+        color: #666;
+    }
+
+    .badge {
+        background-color: #722F37 !important;
+        padding: 5px 10px;
+        border-radius: 12px;
+    }
+
+    .card {
+        border: none;
+        border-radius: 12px;
+    }
+
+    .card-header {
+        border-bottom: 1px solid #eee;
+        border-radius: 12px 12px 0 0 !important;
+    }
+
+
+
+    body {
+        background: url('https://cdn.pixabay.com/photo/2017/02/07/09/02/wood-2045379_640.jpg');
+        /*        background-color : darkred;*/
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        position: relative;
+    }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient( to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.4) );
+        }
+
+    .container {
+        position: relative;
+        z-index: 1;
+    }
+
+    .wine-feed {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: rgba(255, 255, 255, 0.85);
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    .card {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .fa-heart.text-danger {
+        color: #dc3545 !important;
+    }
+
+    .fa-heart.text-muted {
+        color: #6c757d !important;
+    }
+
+    h2.text-center {
+        color: #2c1810;
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+</style>
+
+
+
+
+@section Scripts {
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            const likeButtons = document.querySelectorAll('.like-button');
+
+            likeButtons.forEach(button => {
+                const wineId = button.getAttribute('data-wine-id');
+                const isLiked = button.getAttribute('data-is-liked') === 'true';
+                const heart = button.querySelector('i.fa-heart');
+
+                
+                if (isLiked) {
+                    heart.classList.remove('text-muted');
+                    heart.classList.add('text-danger');
+                } else {
+                    heart.classList.remove('text-danger');
+                    heart.classList.add('text-muted');
+                }
+
+                button.addEventListener('click', function() {
+                    fetch('@Url.Action("Like", "Wine")', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded',
+                        },
+                        body: 'id=' + wineId
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            if (data.isLiked) {
+                                heart.classList.remove('text-muted');
+                                heart.classList.add('text-danger');
+                                button.setAttribute('data-is-liked', 'true');
+                            } else {
+                                heart.classList.remove('text-danger');
+                                heart.classList.add('text-muted');
+                                button.setAttribute('data-is-liked', 'false');
+                            }
+                            const likesCount = button.nextElementSibling;
+                            likesCount.textContent = data.likesCount + ' likes';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+}

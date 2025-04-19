@@ -1,0 +1,103 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+@*//https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&q=80*@
+<div class="hero-section text-center py-5" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.pixabay.com/photo/2020/02/02/15/07/wine-4813260_1280.jpg') center/cover;">
+    <div class="container py-5">
+        <h1 class="display-4 text-white mb-4">Welcome to Wine Vault</h1>
+        <p class="lead text-white mb-4">Your personal wine collection and discovery platform</p>
+        @if (!Request.IsAuthenticated)
+        {
+            <div class="mt-4">
+                @Html.ActionLink("Join Now", "Register", "Account", null, new { @class = "btn btn-lg btn-primary mx-2" })
+                @Html.ActionLink("Learn More", "WinePosts", "Wine", null, new { @class = "btn btn-lg btn-outline-light mx-2" })
+            </div>
+        }
+    </div>
+</div>
+
+<div class="features-section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-wine-bottle fa-3x mb-3 text-primary"></i>
+                        <h3>Track Your Collection</h3>
+                        <p class="text-muted">Keep track of your favorite wines and maintain your personal wine collection.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-users fa-3x mb-3 text-primary"></i>
+                        <h3>Share & Discover</h3>
+                        <p class="text-muted">Share your wine experiences and discover new wines from other enthusiasts.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-heart fa-3x mb-3 text-primary"></i>
+                        <h3>Like & Comment</h3>
+                        <p class="text-muted">Engage with the community by liking and commenting on wine posts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="cta-section py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="mb-4">Start Your Wine Journey Today</h2>
+        <p class="lead mb-4">Join our community of wine enthusiasts and start building your collection.</p>
+        @if (!Request.IsAuthenticated)
+        {
+            @Html.ActionLink("Get Started", "Register", "Account", null, new { @class = "btn btn-lg btn-primary" })
+        }
+        else
+        {
+            @Html.ActionLink("View Wine Posts", "WinePosts", "Wine", null, new { @class = "btn btn-lg btn-primary" })
+        }
+    </div>
+</div>
+
+<style>
+    .hero-section {
+        min-height: 500px;
+        display: flex;
+        align-items: center;
+        margin-top: -2rem;
+    }
+
+    .features-section .card {
+        transition: transform 0.3s ease;
+    }
+
+        .features-section .card:hover {
+            transform: translateY(-5px);
+        }
+
+    .text-primary {
+        color: #722F37 !important;
+    }
+
+    .btn-primary {
+        background-color: #722F37;
+        border-color: #722F37;
+    }
+
+        .btn-primary:hover {
+            background-color: #4E1C24;
+            border-color: #4E1C24;
+        }
+
+    .btn-outline-light:hover {
+        color: #722F37;
+        background-color: #fff;
+    }
+</style>

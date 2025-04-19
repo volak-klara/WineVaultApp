@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Documents\\FINKI\\Projects\\IV semestar\\Internet Tehnologii\\WineVaultApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7B7BA0-4881-4186-BCFD-5FEDDEF1FA2A}|WineVaultApplication\\WineVaultApplication.csproj|d:\\documents\\finki\\projects\\iv semestar\\internet tehnologii\\winevaultapplication\\winevaultapplication\\views\\wine\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7B7BA0-4881-4186-BCFD-5FEDDEF1FA2A}|WineVaultApplication\\WineVaultApplication.csproj|solutionrelative:winevaultapplication\\views\\wine\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7B7BA0-4881-4186-BCFD-5FEDDEF1FA2A}|WineVaultApplication\\WineVaultApplication.csproj|d:\\documents\\finki\\projects\\iv semestar\\internet tehnologii\\winevaultapplication\\winevaultapplication\\views\\wine\\mylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7B7BA0-4881-4186-BCFD-5FEDDEF1FA2A}|WineVaultApplication\\WineVaultApplication.csproj|solutionrelative:winevaultapplication\\views\\wine\\mylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7B7BA0-4881-4186-BCFD-5FEDDEF1FA2A}|WineVaultApplication\\WineVaultApplication.csproj|d:\\documents\\finki\\projects\\iv semestar\\internet tehnologii\\winevaultapplication\\winevaultapplication\\views\\wine\\wineposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CC7B7BA0-4881-4186-BCFD-5FEDDEF1FA2A}|WineVaultApplication\\WineVaultApplication.csproj|solutionrelative:winevaultapplication\\views\\wine\\wineposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7B7BA0-4881-4186-BCFD-5FEDDEF1FA2A}|WineVaultApplication\\WineVaultApplication.csproj|d:\\documents\\finki\\projects\\iv semestar\\internet tehnologii\\winevaultapplication\\winevaultapplication\\models\\wine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7B7BA0-4881-4186-BCFD-5FEDDEF1FA2A}|WineVaultApplication\\WineVaultApplication.csproj|solutionrelative:winevaultapplication\\models\\wine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Documents\\FINKI\\Projects\\IV semestar\\Internet Tehnologii\\WineVaultApplication\\WineVaultApplication\\Views\\Wine\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WineVaultApplication\\Views\\Wine\\Edit.cshtml",
+              "ToolTip": "D:\\Documents\\FINKI\\Projects\\IV semestar\\Internet Tehnologii\\WineVaultApplication\\WineVaultApplication\\Views\\Wine\\Edit.cshtml",
+              "RelativeToolTip": "WineVaultApplication\\Views\\Wine\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T01:39:23.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyList.cshtml",
+              "DocumentMoniker": "D:\\Documents\\FINKI\\Projects\\IV semestar\\Internet Tehnologii\\WineVaultApplication\\WineVaultApplication\\Views\\Wine\\MyList.cshtml",
+              "RelativeDocumentMoniker": "WineVaultApplication\\Views\\Wine\\MyList.cshtml",
+              "ToolTip": "D:\\Documents\\FINKI\\Projects\\IV semestar\\Internet Tehnologii\\WineVaultApplication\\WineVaultApplication\\Views\\Wine\\MyList.cshtml",
+              "RelativeToolTip": "WineVaultApplication\\Views\\Wine\\MyList.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T01:39:19.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WinePosts.cshtml",
+              "DocumentMoniker": "D:\\Documents\\FINKI\\Projects\\IV semestar\\Internet Tehnologii\\WineVaultApplication\\WineVaultApplication\\Views\\Wine\\WinePosts.cshtml",
+              "RelativeDocumentMoniker": "WineVaultApplication\\Views\\Wine\\WinePosts.cshtml",
+              "ToolTip": "D:\\Documents\\FINKI\\Projects\\IV semestar\\Internet Tehnologii\\WineVaultApplication\\WineVaultApplication\\Views\\Wine\\WinePosts.cshtml",
+              "RelativeToolTip": "WineVaultApplication\\Views\\Wine\\WinePosts.cshtml",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T01:39:12.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Wine.cs",
+              "DocumentMoniker": "D:\\Documents\\FINKI\\Projects\\IV semestar\\Internet Tehnologii\\WineVaultApplication\\WineVaultApplication\\Models\\Wine.cs",
+              "RelativeDocumentMoniker": "WineVaultApplication\\Models\\Wine.cs",
+              "ToolTip": "D:\\Documents\\FINKI\\Projects\\IV semestar\\Internet Tehnologii\\WineVaultApplication\\WineVaultApplication\\Models\\Wine.cs",
+              "RelativeToolTip": "WineVaultApplication\\Models\\Wine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T01:39:05.918Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+﻿@model WineVaultApplication.Models.Wine
+@{
+    ViewBag.Title = "Add New Wine";
+}
+
+<div class="container">
+    <div class="wine-form-container">
+        <div class="card shadow-sm">
+            <div class="card-body p-4">
+                <h2 class="text-center mb-4">
+                    <i class="fas fa-wine-bottle me-2"></i>
+                    Add New Wine
+                </h2>
+
+                @using (Html.BeginForm("Create", "Wine", FormMethod.Post, new { @class = "wine-form" }))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    <div class="form-group mb-4">
+                        <label class="form-label">Wine Name</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-tag"></i></span>
+                            @Html.TextBoxFor(m => m.Name, new { @class = "form-control", placeholder = "Enter wine name" })
+                        </div>
+                        @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label class="form-label">Category</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-wine-glass-alt"></i></span>
+                            @Html.DropDownListFor(m => m.Category,
+                                new SelectList(new[] { "Red", "White", "Rose", "Sparkling" }),
+                                "Select Category",
+                                new { @class = "form-control" })
+                        </div>
+                        @Html.ValidationMessageFor(m => m.Category, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label class="form-label">Description</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-align-left"></i></span>
+                            @Html.TextAreaFor(m => m.Description, new { @class = "form-control", rows = "4", placeholder = "Enter wine description" })
+                        </div>
+                        @Html.ValidationMessageFor(m => m.Description, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label class="form-label">Image URL</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-image"></i></span>
+                            @Html.TextBoxFor(m => m.ImagePath, new { @class = "form-control", placeholder = "Enter image URL" })
+                        </div>
+                        @Html.ValidationMessageFor(m => m.ImagePath, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn custom-btn">
+                            <i class="fas fa-plus me-2"></i>Add Wine
+                        </button>
+                        @Html.ActionLink("Cancel", "MyList", null, new { @class = "btn btn-outline-secondary" })
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .wine-form-container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .wine-form {
+        margin-top: 20px;
+    }
+
+    .input-group-text {
+        background-color: #f8f9fa;
+        border-right: none;
+        width: 45px;
+        justify-content: center;
+    }
+
+    .form-control {
+        border-left: none;
+    }
+
+        .form-control:focus {
+            border-color: #ced4da;
+            box-shadow: none;
+        }
+
+    .custom-btn {
+        background-color: #722F37;
+        color: white;
+        border-radius: 25px;
+        padding: 10px 20px;
+        border: none;
+        transition: all 0.3s ease;
+    }
+
+        .custom-btn:hover {
+            background-color: #4E1C24;
+            color: white;
+        }
+
+    .btn-outline-secondary {
+        border-radius: 25px;
+        padding: 10px 20px;
+    }
+
+    .card {
+        border: none;
+        border-radius: 15px;
+    }
+</style>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+

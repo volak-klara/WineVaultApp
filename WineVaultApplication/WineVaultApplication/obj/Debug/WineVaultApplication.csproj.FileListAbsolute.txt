@@ -1,0 +1,232 @@
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\WineVaultApplication.dll.config
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\WineVaultApplication.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\WineVaultApplication.pdb
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\csc.exe
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\csc.exe.config
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\csc.rsp
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\csi.exe
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\csi.exe.config
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\csi.rsp
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.AppContext.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Console.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.IO.Compression.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Net.Http.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Net.Sockets.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.ValueTuple.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Xml.XPath.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\vbc.exe
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\vbc.exe.config
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\vbc.rsp
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Antlr3.Runtime.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\EntityFramework.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Newtonsoft.Json.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Owin.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\System.Web.Helpers.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\System.Web.Mvc.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\System.Web.Optimization.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\System.Web.Razor.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\System.Web.WebPages.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\WebGrease.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\System.Web.Helpers.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\System.Web.Mvc.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\System.Web.Optimization.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\System.Web.Razor.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\System.Web.WebPages.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Newtonsoft.Json.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Antlr3.Runtime.pdb
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\EntityFramework.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.csproj.AssemblyReference.cache
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.csproj.CoreCompileInputs.cache
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaul.799EFDA3.Up2Date
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.dll
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.pdb
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.Migrations.Initial.resources
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.csproj.GenerateResource.cache
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.Migrations.Initial2.resources
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.Migrations.Likes.resources
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.Migrations.Comments.resources
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.Migrations.PostsComments.resources
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.Migrations.AddCreatedAtToWines.resources
+C:\Users\vklar\source\repos\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.Migrations._new.resources
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\WineVaultApplication.dll.config
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\WineVaultApplication.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\WineVaultApplication.pdb
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\csc.exe
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\csc.exe.config
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\csc.rsp
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\csi.exe
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\csi.exe.config
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\csi.rsp
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.AppContext.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Console.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Globalization.Calendars.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.IO.Compression.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.IO.FileSystem.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Net.Http.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Net.Sockets.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.ValueTuple.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Xml.XPath.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\vbc.exe
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\vbc.exe.config
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\vbc.rsp
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\VBCSCompiler.exe
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Antlr3.Runtime.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\EntityFramework.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\EntityFramework.SqlServer.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.Google.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Newtonsoft.Json.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Owin.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\System.Web.Helpers.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\System.Web.Mvc.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\System.Web.Optimization.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\System.Web.Razor.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\System.Web.WebPages.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\System.Web.WebPages.Razor.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\WebGrease.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\System.Web.Helpers.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\System.Web.Mvc.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\System.Web.Optimization.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\System.Web.Razor.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\System.Web.WebPages.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\System.Web.WebPages.Razor.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Newtonsoft.Json.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Antlr3.Runtime.pdb
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\EntityFramework.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\EntityFramework.SqlServer.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.Google.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.csproj.AssemblyReference.cache
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.Migrations.Initial.resources
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.Migrations.Initial2.resources
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.Migrations.Likes.resources
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.Migrations.Comments.resources
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.Migrations.PostsComments.resources
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.Migrations.AddCreatedAtToWines.resources
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.Migrations._new.resources
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.csproj.GenerateResource.cache
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.csproj.CoreCompileInputs.cache
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaul.799EFDA3.Up2Date
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.dll
+D:\Documents\FINKI\Projects\IV semestar\Internet Tehnologii\WineVaultApplication\WineVaultApplication\obj\Debug\WineVaultApplication.pdb

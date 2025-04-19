@@ -1,0 +1,93 @@
+﻿
+
+
+@model IEnumerable<WineVaultApplication.Models.Wine>
+@{
+    ViewBag.Title = "MyList";
+}
+
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="mb-0"><i class="fas fa-wine-bottle me-2"></i>My Wine Collection</h2>
+        @Html.ActionLink("Add New Wine", "Create", null, new { @class = "btn btn-primary" })
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="text-center py-5">
+            <i class="fas fa-wine-glass-alt fa-3x text-muted mb-3"></i>
+            <h3 class="text-muted">Your collection is empty</h3>
+            <p class="text-muted mb-4">Start adding your favorite wines to your collection</p>
+            @Html.ActionLink("Add Your First Wine", "Create", null, new { @class = "btn btn-primary" })
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var wine in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm wine-card">
+                        <img src="@wine.ImagePath" class="card-img-top wine-image" alt="@wine.Name"
+                             onerror="this.src='https://via.placeholder.com/300x200?text=No+Image';">
+                        <div class="card-body">
+                            <h5 class="card-title">@wine.Name</h5>
+                            <p class="card-text text-muted">@wine.Category</p>
+                            <div class="d-flex justify-content-between mt-2">
+                                @Html.ActionLink("Details", "Details", new { id = wine.Id }, new { @class = "btn custom-btn me-2" })
+                                @Html.ActionLink("Edit", "Edit", new { id = wine.Id }, new { @class = "btn custom-btn me-2" })
+                                @using (Html.BeginForm("Delete", "Wine", new { id = wine.Id }, FormMethod.Post, new { style = "display:inline;" }))
+                                {
+                                    <button type="submit" class="btn custom-btn" onclick="return confirm('Delete this wine?');">Delete</button>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+<style>
+
+    .custom-btn {
+        background-color: #722F37;
+        color: white;
+        border-radius: 25px;
+        padding: 8px 20px;
+        border: none;
+        transition: all 0.3s ease;
+    }
+
+        .custom-btn:hover {
+            background-color: #4E1C24;
+            color: white !important;
+            text-decoration: none;
+        }
+   
+
+    .wine-card {
+        transition: transform 0.2s;
+    }
+
+        .wine-card:hover {
+            transform: translateY(-5px);
+        }
+
+    .wine-image {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .btn-primary {
+        background-color: #722F37;
+        border-color: #722F37;
+    }
+
+        .btn-primary:hover {
+            background-color: #4E1C24;
+            border-color: #4E1C24;
+        }
+</style>
+
